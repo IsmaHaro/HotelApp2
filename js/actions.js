@@ -16,7 +16,7 @@ var fn = {
         var mail = $('#regMail').val();
         
         if (nom!= '' && tel!= '' && mail!= '')
-        alert(nom + '-' + tel + '-'+ mail);
+            alert(nom + '-' + tel + '-'+ mail);
         else
             alert("Todos los campos so requeridos");
     
